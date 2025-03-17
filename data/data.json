@@ -1,0 +1,57 @@
+{
+    "desc": "Miscellaneous data storage, should be human readable",
+    "blocks": {
+        "0": "void",
+
+        "100": "grass",
+        "101": "dirt",
+        "102": "path",
+        "103": "road",
+
+        "110": "water",
+        "111": "shallowWater",
+        "112": "deepWater",
+
+        "123": "sand",
+        "124": "snow",
+        "125": "ice",
+
+        "200": "stone",
+        "201": "coalOre",
+        "202": "ironOre",
+        "210": "hardStone",
+        "220": "basalt",
+        "230": "granite",
+        "240": "bedrock"
+    },
+    "movementPenalties": {
+        "water": 0.33,
+        "shallowWater": 0.75,
+        "deepWater": 0.25,
+        "sand": 0.8,
+        "snow": 0.9,
+        "ice": 1.2,
+        "path": 1.25,
+        "road": 1.5,
+        "upHalfSlope": 0.8,
+        "downHalfSlope": 1.1,
+        "upFullSlope": 0.5,
+        "downFullSlope": 1.25
+    },
+    "world": {
+        "regionSize": 16,
+        "chunkSize": 16
+    },
+    "player": {
+        "baseSpeed": 100,
+        "baseHP": 100,
+        "baseMP": 0
+    },
+    "atributeModifiers": {
+        "speed": {
+            "agi": 0.1,
+            "str": 0.05,
+            "dex": 0.05
+        }
+    }
+}
